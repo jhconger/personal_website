@@ -1,11 +1,8 @@
 import React from 'react';
 import '../App.css';
-// import { Button } from './Button';
 import './HeroSection.css';
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
 import myVideo from "../HartLogoVid.mp4";
-// import styles from '../styles/heroSection.module.css';
-
 
 export default function HeroSection({ offset = 1500 }) {
     // 2.
@@ -19,17 +16,13 @@ export default function HeroSection({ offset = 1500 }) {
         <>
         <div className='hero-container'>
             <h1>Seneca, “Luck is what happens when preparation meets opportunity.” </h1>
-            {/*// <p>What are you waiting for?</p>*/}
             <video  autoPlay muted loop>
                 <source src={myVideo} type="video/mp4" />
             </video>
         </div>
-            {/* 5. */}
                 <div style={{background: '#030303', height: `${offset}px`}}/>
                 <div style={{background: '#030303', height: '30vh'}}/>
         </>
 
     );
 }
-
-// export default HeroSection;
