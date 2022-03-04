@@ -24,11 +24,8 @@ video {
 }
 
 .services {
-<<<<<<< HEAD
+
   background-image: url('webdevONE.jpg');
-=======
-  background-image: url('HART LOGO copy 2.png');
->>>>>>> 7ea9cbb5241af9e749928b6f27b7b24b63244fef
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,24 +34,13 @@ video {
 }
 
 .products {
-<<<<<<< HEAD
-  /*background-image: url('webdevONE.jpg');*/
-=======
-  background-image: url('HART LOGO copy 2.png');
->>>>>>> 7ea9cbb5241af9e749928b6f27b7b24b63244fef
-  background-position: center;
-
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
 .sign-up {
-<<<<<<< HEAD
   background-image: url('webdevONE.jpg');
-=======
-  background-image: url('HART LOGO copy 2.png');
->>>>>>> 7ea9cbb5241af9e749928b6f27b7b24b63244fef
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
