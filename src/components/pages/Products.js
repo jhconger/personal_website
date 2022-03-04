@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import {useTransform, useViewportScroll} from "framer-motion";
-import myVideo from
+// import myVideo from
 
 export default function Products({ offset = 1500 }) {
     const { scrollY } = useViewportScroll();
