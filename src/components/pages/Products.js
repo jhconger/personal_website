@@ -13,7 +13,7 @@ export default function Products({ offset = 1500 }) {
         <>
             <div className='hero-container'>
                 <h1>PROJECTS</h1>
-                <video  autoPlay controls loop>
+                <video  autoPlay controls muted loop>
                     <source src={myVideo} type="video/mp4" />
                 </video>
             </div>
