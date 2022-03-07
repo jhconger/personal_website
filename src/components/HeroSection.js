@@ -16,7 +16,7 @@ export default function HeroSection({ offset = 1500 }) {
         <>
         <div className='hero-container'>
             <h1>Seneca, “Luck is what happens when preparation meets opportunity.” </h1>
-            <video controls autoPlay>
+            <video controls muted autoPlay>
                 <source src={myVideo} type="video/mp4" />
             </video>
         </div>
