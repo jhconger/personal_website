@@ -13,7 +13,7 @@ video {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
 margin: 0;
     object-fit: cover;
@@ -23,8 +23,9 @@ margin: 0;
 
 .hero-container > h1 {
     color: #fff;
-    font-size: 80px;
+    font-size: 40px;
     margin-top: -5px;
+    bottom: 800px;
 }
 
 .hero-container > p {

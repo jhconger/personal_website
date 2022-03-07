@@ -1,6 +1,6 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(3, 3, 3) 100%);
 }
 
 h1 {
@@ -90,7 +90,7 @@ h1 {
 }
 
 .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 10px 10px 10px;
 }
 
 .cards__item__text {

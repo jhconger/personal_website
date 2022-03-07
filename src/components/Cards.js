@@ -1,8 +1,14 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-
+import myPhoto1 from "../weather.gif";
+import myPhoto2 from "../movie.gif";
+import myPhoto3 from "../img_2.gif";
+import myPhoto4 from "../code.gif";
+import myPhoto5 from "../konami.gif";
+import {Route} from "react-router-dom";
 function Cards() {
+
     return (
         <div className='cards'>
             <h1>Lorem ipsum dolor sit amet</h1>
@@ -10,36 +16,36 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/ParticleAnimation.gif'
-                            text='Lorem ipsum, dolor sit amet '
-                            label='Adventure'
-                            path='/services'
+                            src={myPhoto1}
+                            text='An interactive Weather API project'
+                            label='Weather Map'
+                            path='/projects'
                         />
                         <CardItem
-                            src='images/img-2.jpg'
-                            text='Lorem ipsum dolor sit amet'
-                            label='Luxury'
-                            path='/services'
+                            src={myPhoto2}
+                            text='An interactive Movie API project'
+                            label='Movies'
+                            path='/projects'
                         />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/img-3.jpg'
-                            text='Lorem ipsum dolor sit amet'
-                            label='Mystery'
-                            path='/services'
+                            src={myPhoto3}
+                            text='A complete guide to me'
+                            label='Resume'
+                            path='/projects'
                         />
                         <CardItem
-                            src='images/img-4.jpg'
-                            text='Lorem ipsum dolor sit amet'
-                            label='Adventure'
-                            path='/products'
+                            src={myPhoto4}
+                            text='A brochure for Codeup'
+                            label='Codeup'
+                            path='/projects'
                         />
                         <CardItem
-                            src='images/img-8.jpg'
-                            text='Lorem ipsum dolor sit amet'
-                            label='Adrenaline'
-                            path='/sign-up'
+                            src={myPhoto5}
+                            text='Please enter the Konami Code'
+                            label='Konami'
+                            path='/projects'
                         />
                     </ul>
                 </div>

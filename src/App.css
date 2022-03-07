@@ -14,12 +14,13 @@ video {
 
 .home,
 .services,
-.products,
+.projects,
 .sign-up {
   display: flex;
+  flex-direction: column;
   height: 90vh;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   font-size: 3rem;
 }
 
@@ -29,14 +30,17 @@ video {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: #060606;
+  font-size: 42px;
 }
 
-.products {
+.projects{
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: #060606;
+  font-size: 42px;
+
 }
 
 .sign-up {
@@ -44,6 +48,6 @@ video {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: #060606;
+  font-size: 42px;
 }
