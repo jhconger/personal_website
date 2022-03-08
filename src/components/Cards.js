@@ -14,7 +14,7 @@ function Cards() {
         <>
         <div className='cards'>
             <div className='cards__container'>
-                <div className='cards__wrapper'>
+                <div className='cards__wrapper' style={{ width: "75%" }}>
                     <ul className='cards__items'>
 
                         <CardItem

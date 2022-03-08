@@ -49,13 +49,21 @@ margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-        font-size: 42px;
-        margin-top: -10px;
+    video {
+        object-fit: cover;
+        width: 98%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
     }
 
-    .hero-container > p {
-        font-size: 25px;
+    .hero-container > h1 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .hero-container {
+       width: 100%;
     }
 
     .btn-mobile {

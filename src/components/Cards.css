@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 20px;
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(3, 3, 3) 100%);
 }
 
@@ -11,9 +11,10 @@ h1 {
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
+    /*max-width: 1120px;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .cards__wrapper {
@@ -35,13 +36,14 @@ h1 {
 .cards__item__link {
     display: flex;
     flex-flow: column;
-    width: 100%;
+    width: 200%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     text-decoration: none;
+    justify-content: space-evenly;
 }
 
 .cards__item__pic-wrap {
