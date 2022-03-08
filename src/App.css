@@ -16,6 +16,10 @@ video {
 .services,
 .projects,
 .weather-map,
+.movies,
+.resume,
+.codeup,
+.konami
 .sign-up {
   display: flex;
   flex-direction: column;

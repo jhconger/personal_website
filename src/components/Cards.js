@@ -22,17 +22,12 @@ function Cards() {
                             text='An interactive Weather API project'
                             label='Weather Map'
                             path='/weather-map'
-                        //         component={() =>{
-                        //     window.location.href = 'https://jhconger.github.io/weather_map/';
-                        //     return true;
-                        // }}/>
-
                         />
                         <CardItem
                             src={myPhoto2}
                             text='An interactive Movie API project'
                             label='Movies'
-                            path='/projects'
+                            path='/movies'
                         />
                     </ul>
                     <ul className='cards__items'>
@@ -40,22 +35,19 @@ function Cards() {
                             src={myPhoto3}
                             text='A complete guide to me'
                             label='Resume'
-                            path='/projects'
+                            path='/resume'
                         />
                         <CardItem
                             src={myPhoto4}
                             text='A brochure for Codeup'
                             label='Codeup'
-                            path='/projects'
+                            path='/codeup'
                         />
                         <CardItem
                             src={myPhoto5}
                             text='Please enter the Konami Code'
                             label='Konami'
-                            path='/konami-code' component={() => {
-                            window.location.href = 'https://jhconger.github.io/konami_code/';
-                            return true;
-                        }}/>
+                            path='/konami-code'
                         />
                     </ul>
                 </div>
