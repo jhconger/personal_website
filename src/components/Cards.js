@@ -7,18 +7,26 @@ import myPhoto3 from "../img_2.gif";
 import myPhoto4 from "../code.gif";
 import myPhoto5 from "../konami.gif";
 import {Route} from "react-router-dom";
+
 function Cards() {
 
     return (
+        <>
         <div className='cards'>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
+
                         <CardItem
                             src={myPhoto1}
                             text='An interactive Weather API project'
                             label='Weather Map'
-                            path='/projects'
+                            path='/weather-map'
+                        //         component={() =>{
+                        //     window.location.href = 'https://jhconger.github.io/weather_map/';
+                        //     return true;
+                        // }}/>
+
                         />
                         <CardItem
                             src={myPhoto2}
@@ -44,12 +52,16 @@ function Cards() {
                             src={myPhoto5}
                             text='Please enter the Konami Code'
                             label='Konami'
-                            path='/projects'
+                            path='/konami-code' component={() => {
+                            window.location.href = 'https://jhconger.github.io/konami_code/';
+                            return true;
+                        }}/>
                         />
                     </ul>
                 </div>
             </div>
         </div>
+        </>
     );
 }
 
