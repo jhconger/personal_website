@@ -4,7 +4,7 @@ import CardItem from './CardItem';
 import myPhoto1 from "../weather.gif";
 import myPhoto2 from "../movie.gif";
 import myPhoto3 from "../img_2.gif";
-import myPhoto4 from "../code.gif";
+import myPhoto4 from "../coffee.gif";
 import myPhoto5 from "../konami.gif";
 import {Route} from "react-router-dom";
 
@@ -39,9 +39,9 @@ function Cards() {
                         />
                         <CardItem
                             src={myPhoto4}
-                            text='A brochure for Codeup'
-                            label='Codeup'
-                            path='/codeup'
+                            text='A Coffee App'
+                            label='Coffee'
+                            path='/coffee'
                         />
                         <CardItem
                             src={myPhoto5}
