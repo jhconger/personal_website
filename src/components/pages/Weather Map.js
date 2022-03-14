@@ -9,8 +9,16 @@ export default function WeatherMap() {
                 target="_blank"
                 path='/weather-map'
                 component={() => {
-                window.location.href = 'https://jhconger.github.io/weather_map/';
-                return null;
+                // window.location.replace = ('https://jhconger.github.io/weather_map/');
+                    if(window.location.href ===('https://jhconger.github.io/weather_map/'))
+                    {
+                        window.location.reload();
+                    }
+                    else
+                    {
+                        window.location.href = ('https://jhconger.github.io/weather_map/');
+                    }
+                    return null
             }}/>
     );
 }
