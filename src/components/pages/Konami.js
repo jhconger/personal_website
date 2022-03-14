@@ -9,7 +9,7 @@ export default function KonamiCode() {
             path='/konami-code'
             component={() => {
                 window.location.href = ('https://jhconger.github.io/konami/');
-                return false;
+                return null;
             }}/>
     );
 }

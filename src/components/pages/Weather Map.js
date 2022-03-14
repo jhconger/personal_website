@@ -10,7 +10,7 @@ export default function WeatherMap() {
                 path='/weather-map'
                 component={() => {
                 window.location.href = 'https://jhconger.github.io/weather_map/';
-                return false;
+                return null;
             }}/>
     );
 }
