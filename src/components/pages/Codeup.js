@@ -9,7 +9,7 @@ export default function Codeup() {
             path='/codeup'
             component={() => {
                 window.location.href = ('https://jhconger.github.io/codeup/');
-                return true;
+                return false;
             }}/>
     );
 }

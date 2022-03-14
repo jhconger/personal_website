@@ -11,7 +11,7 @@ export default function Movies() {
             path='/movies'
             component={() => {
                 window.location.href = ('https://jhconger.github.io/movies/');
-                return true;
+                return false;
             }}/>
     );
 }

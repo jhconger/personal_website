@@ -9,7 +9,7 @@ export default function Resume() {
             path='/resume'
             component={() => {
                 window.location.href = ('https://jhconger.github.io/resume/');
-                return true;
+                return false;
             }}/>
     );
 }
