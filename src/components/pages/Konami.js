@@ -1,9 +1,22 @@
-import React from 'react';
 import '../../App.css';
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+import React, { useEffect } from "react";
 
-export default
-// function KonamiCode() {
+export default function KonamiCode() {
+
+    useEffect(() => {
+        window.location.href = ('https://jhconger.github.io/konami/');
+    }, []);
+
+    return (
+     null
+    );
+}
+
+
+
+
+// function
 //     return (
 //         <Route
 //             target="_blank"
@@ -13,24 +26,4 @@ export default
 //             }}/>
 //     );
 // }
-function url_redirect(url){
-    let X = setTimeout(function(){
-        window.location.replace('https://jhconger.github.io/konami/');
-        return true;
-    },300);
 
-    if( window.location = ('https://jhconger.github.io/konami/')){
-        clearTimeout(X);
-        return true;
-    } else {
-        if (('https://jhconger.github.io/konami/')) {
-            clearTimeout(X);
-            return true;
-        } else {
-            clearTimeout(X);
-            window.location.replace('https://jhconger.github.io/konami/');
-            return true;
-        }
-    }
-    return false;
-};
