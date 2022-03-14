@@ -62,7 +62,7 @@ h1 {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
     font-size: 12px;
@@ -70,6 +70,7 @@ h1 {
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
+    border-top-right-radius: 10px;
 }
 
 .cards__item__img {
@@ -85,6 +86,8 @@ h1 {
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .cards__item__img:hover {
