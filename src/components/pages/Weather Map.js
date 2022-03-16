@@ -7,7 +7,7 @@ export default function WeatherMap() {
          window.location.replace = ('https://jhconger.github.io/weather_map/')
      }, []);
 
-    return null;
+    return false;
  }
 
 // export const Test = () => (
