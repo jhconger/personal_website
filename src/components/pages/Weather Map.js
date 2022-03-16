@@ -1,24 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../../App.css';
-import { Route } from 'react-router-dom'
+import { browserHistory } from 'react-router'
 
 export default function WeatherMap() {
-    return (
+     useEffect(() => {
+         window.location.href = ('https://jhconger.github.io/weather_map/')
+     }, []);
 
-            <Route
-                target="_blank"
-                path='/weather-map'
-                component={() => {
-                // window.location.replace = ('https://jhconger.github.io/weather_map/');
-                    if(window.location.href ===('https://jhconger.github.io/weather_map/'))
-                    {
-                        window.location.reload();
-                    }
-                    else
-                    {
-                        window.location.href = ('https://jhconger.github.io/weather_map/');
-                    }
-                    return null
-            }}/>
-    );
-}
+    return (
+         null
+     );
+ }
+
