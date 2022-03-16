@@ -1,14 +1,17 @@
 import React, {useEffect} from 'react';
 import '../../App.css';
-import { browserHistory } from 'react-router'
+import {BrowserRouter} from "react-router-dom";
 
 export default function WeatherMap() {
      useEffect(() => {
          window.location.href = ('https://jhconger.github.io/weather_map/')
      }, []);
 
-    return (
-         null
-     );
+    return null;
  }
 
+export const Test = () => (
+    <div className="">
+        <button onClick={BrowserRouter.goBack}>Back</button>
+    </div>
+)
