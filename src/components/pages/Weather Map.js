@@ -4,14 +4,14 @@ import {BrowserRouter} from "react-router-dom";
 
 export default function WeatherMap() {
      useEffect(() => {
-         window.location.href = ('https://jhconger.github.io/weather_map/')
+         window.location.replace = ('https://jhconger.github.io/weather_map/')
      }, []);
 
     return null;
  }
 
-export const Test = () => (
-    <div className="">
-        <button onClick={BrowserRouter.goBack}>Back</button>
-    </div>
-)
+// export const Test = () => (
+//     <div className="">
+//         <button onClick={BrowserRouter.goBack}>Back</button>
+//     </div>
+// )
