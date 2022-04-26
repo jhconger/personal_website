@@ -29,9 +29,19 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo'  onClick={closeMobileMenu}>
-                        Justin Hart Conger
-                        <img src={myPhoto} alt="HartLogo"/>
+                        <div className='justin'>
+                            Justin
+                        </div>
+                        <div className='hart'>
+                            Hart
+                        </div>
+                        <div className='conger'>
+                            Conger
+                        </div>
+                        <img className='hart-logo' src={myPhoto} alt="HartLogo"/>
                     </Link>
+
+
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
@@ -70,7 +80,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+
                 </div>
             </nav>
         </>

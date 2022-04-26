@@ -13,14 +13,14 @@
 /*}*/
 
 .home,
-.services,
+.about,
 .projects,
 .weather-map,
 .movies,
 .resume,
 .codeup,
 .konami
-.sign-up {
+.email {
   display: flex;
   flex-direction: column;
   height: 90vh;

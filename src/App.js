@@ -2,7 +2,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
-import SignUp from './components/pages/SignUp';
+import SignUp from './components/pages/LeaveAMessage';
 import WeatherMap from './components/pages/Weather Map';
 import Movies from "./components/pages/Movies";
 import Resume from "./components/pages/Resume";
