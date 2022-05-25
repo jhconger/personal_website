@@ -20,9 +20,6 @@ export default function HeroSection({ offset = 1500 }) {
                 <source src={myVideo} type="video/mp4" />
             </video>
         </div>
-                {/*<div style={{background: '#030303', height: `${offset}px`}}/>*/}
-                {/*<div style={{background: '#030303', height: '30vh'}}/>*/}
         </>
-
     );
 }

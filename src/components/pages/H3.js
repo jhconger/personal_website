@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
 import '../../App.css';
 
-export default function WeatherMap() {
+export default function H3() {
     useEffect(() => {
-        window.location.replace('https://jhconger.github.io/coffee/');
+        window.location.replace('http://happeninghappyhours.com/');
     }, []);
     return null
 }
-
-

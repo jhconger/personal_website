@@ -6,19 +6,17 @@ video {
     z-index: -1;
 }
 
-
 .hero-container {
-    /*background: url('../cityLights.mp4') center center/cover no-repeat;*/
+   background: none;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     /*justify-content: center;*/
-    align-items: center;
-margin: 0;
+    /*align-items: center;*/
+    margin: 0;
     object-fit: cover;
-
-
+    font-size: 26px;
 }
 
 .hero-container > h1 {
@@ -35,7 +33,6 @@ margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
-
 
 .fa-play-circle {
     margin-left: 4px;

@@ -28,20 +28,12 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo'  onClick={closeMobileMenu}>
-                        <div className='justin'>
-                            Justin
-                        </div>
-                        <div className='hart'>
-                            Hart
-                        </div>
-                        <div className='conger'>
-                            Conger
-                        </div>
+                    <div className='justin'>
+                    <a href="https://github.com/jhconger" target='_blank' rel="noopener" className='navbar-logo' onClick={closeMobileMenu}>
                         <img className='hart-logo' src={myPhoto} alt="HartLogo"/>
-                    </Link>
-
-
+                            Justin Hart Conger
+                    </a>
+                    </div>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
@@ -60,27 +52,25 @@ function Navbar() {
                                 About
                             </Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link
-                                to='/projects'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
-                                Projects
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link
-                                to='/sign-up'
-                                className='nav-links-mobile'
-                                onClick={closeMobileMenu}
-                            >
-                                Contact
-                            </Link>
-                        </li>
+                        {/*<li className='nav-item'>*/}
+                        {/*    <Link*/}
+                        {/*        to='/projects'*/}
+                        {/*        className='nav-links'*/}
+                        {/*        onClick={closeMobileMenu}*/}
+                        {/*    >*/}
+                        {/*        Projects*/}
+                        {/*    </Link>*/}
+                        {/*</li>*/}
+                        {/*<li>*/}
+                        {/*    <Link*/}
+                        {/*        to='/sign-up'*/}
+                        {/*        className='nav-links-mobile'*/}
+                        {/*        onClick={closeMobileMenu}*/}
+                        {/*    >*/}
+                        {/*        Contact*/}
+                        {/*    </Link>*/}
+                        {/*</li>*/}
                     </ul>
-
                 </div>
             </nav>
         </>
