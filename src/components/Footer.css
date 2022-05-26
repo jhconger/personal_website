@@ -1,5 +1,5 @@
 .footer-container {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(3, 3, 3) 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(3, 3, 3) 100%);
     padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: row;
@@ -22,6 +22,7 @@
     justify-content: space-between;
     align-items: center;
     width: 440px;
+    padding: 21px;
 }
 
 .social-logo {
@@ -32,7 +33,8 @@
     font-size: 38px;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin: 21px;
+    padding: 21px;
 }
 
 .website-rights {
