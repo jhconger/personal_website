@@ -3,7 +3,8 @@ import '../../App.css';
 
 export default function WeatherMap() {
     useEffect(() => {
-        window.location.replace('https://jhconger.github.io/weather_map/');
+        window.location.assign('https://jhconger.github.io/weather_map/');
+
     }, []);
     return null
 }

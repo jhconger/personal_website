@@ -3,7 +3,8 @@ import '../../App.css';
 
 export default function H3() {
     useEffect(() => {
-        window.location.replace('http://happeninghappyhours.com/');
+        window.location.assign('http://happeninghappyhours.com/');
     }, []);
+
     return null
 }

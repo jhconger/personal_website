@@ -3,7 +3,7 @@ import '../../App.css';
 
 export default function KonamiCode() {
     useEffect(() => {
-        window.location.replace('https://jhconger.github.io/konami/');
+        window.location.assign('https://jhconger.github.io/konami/');
     }, []);
     return null
 }

@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
 import '../../App.css';
 
-export default function About() {
+export default function Movies() {
     useEffect(() => {
-        window.location.replace('https://justin-and-gerald.github.io/movies/');
+        window.location.assign('https://justin-and-gerald.github.io/movies/');
     }, []);
     return null
 }
