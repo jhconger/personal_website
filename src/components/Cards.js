@@ -15,8 +15,8 @@ function Cards() {
         <>
             <div className='cards'>
                 <div className='cards__container'>
-                    <div className='cards__wrapper' style={{width: "75%"}}>
-                        <ul className='cards__items'>
+                    <div className='cards__wrapper' style={{width: "100%"}} >
+                        <ul className='cards__items' >
 
                             <CardItem
                                 src={myPhoto1}
@@ -52,6 +52,7 @@ function Cards() {
                             />
                             <CardItem
                                 src={myPhoto6}
+                                className={myPhoto6}
                                 text='Happening Happy Hours'
                                 label='H3'
                                 path='/h3'
