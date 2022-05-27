@@ -24,7 +24,7 @@ function CardItem(props) {
     return (
         <>
             <li className='cards__item' >
-                <a href= {props.path} className="cards__item__link" rel="noopener noreferrer">
+                <a href={props.path} className="cards__item__link" rel="noopener noreferrer">
 
                     <figure className='cards__item__pic-wrap' data-category={props.label}>
                         <img

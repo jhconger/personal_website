@@ -22,13 +22,13 @@ function Cards() {
                                 src={myPhoto1}
                                 text='An interactive Weather API project'
                                 label='Weather Map'
-                                path='/weather-map'
+                                path='https://jhconger.github.io/weather_map/'
                             />
                             <CardItem
                                 src={myPhoto2}
                                 text='An interactive Movie API project'
                                 label='Movies'
-                                path='/movies'
+                                path='https://justin-and-gerald.github.io/movies/'
                             />
                         </ul>
                         <ul className='cards__items'>
@@ -36,26 +36,26 @@ function Cards() {
                                 src={myPhoto3}
                                 text='A complete guide to me'
                                 label='Resume'
-                                path='/resume'
+                                path='https://jhconger.github.io/resume/'
                             />
                             <CardItem
                                 src={myPhoto4}
                                 text='A Coffee App'
                                 label='Coffee'
-                                path='/coffee'
+                                path='https://jhconger.github.io/coffee/'
                             />
                             <CardItem
                                 src={myPhoto5}
                                 text='Please enter the Konami Code'
                                 label='Konami'
-                                path='/konami-code'
+                                path='https://jhconger.github.io/konami/'
                             />
                             <CardItem
                                 src={myPhoto6}
                                 className={myPhoto6}
                                 text='Happening Happy Hours'
                                 label='H3'
-                                path='/h3'
+                                path='http://happeninghappyhours.com/'
                             />
                         </ul>
                     </div>
