@@ -44,13 +44,13 @@ function Navbar() {
                         {/*    </Link>*/}
                         {/*</li>*/}
                         <li className='nav-item'>
-                            <Link
-                                to='/services'
+                            <a
+                                href='https://alumni.codeup.com/students/1400' target='_blank' rel="noopener"
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
                                 About
-                            </Link>
+                            </a>
                         </li>
                         {/*<li className='nav-item'>*/}
                         {/*    <Link*/}
