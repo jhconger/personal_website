@@ -38,11 +38,6 @@ function Navbar() {
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        {/*<li className='nav-item'>*/}
-                        {/*    <Link to='/' className='nav-links' onClick={closeMobileMenu}>*/}
-                        {/*        Home*/}
-                        {/*    </Link>*/}
-                        {/*</li>*/}
                         <li className='nav-item'>
                             <a
                                 href='https://alumni.codeup.com/students/1400' target='_blank' rel="noopener"
@@ -52,24 +47,6 @@ function Navbar() {
                                 About
                             </a>
                         </li>
-                        {/*<li className='nav-item'>*/}
-                        {/*    <Link*/}
-                        {/*        to='/projects'*/}
-                        {/*        className='nav-links'*/}
-                        {/*        onClick={closeMobileMenu}*/}
-                        {/*    >*/}
-                        {/*        Projects*/}
-                        {/*    </Link>*/}
-                        {/*</li>*/}
-                        {/*<li>*/}
-                        {/*    <Link*/}
-                        {/*        to='/sign-up'*/}
-                        {/*        className='nav-links-mobile'*/}
-                        {/*        onClick={closeMobileMenu}*/}
-                        {/*    >*/}
-                        {/*        Contact*/}
-                        {/*    </Link>*/}
-                        {/*</li>*/}
                     </ul>
                 </div>
             </nav>

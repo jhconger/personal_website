@@ -27,7 +27,7 @@ function Cards() {
                             <CardItem
                                 src={myPhoto2}
                                 text='An interactive Movie API project'
-                                label='Movies'
+                                // label='Movies'
                                 path='https://justin-and-gerald.github.io/movies/'
                             />
                         </ul>
@@ -35,26 +35,26 @@ function Cards() {
                             <CardItem
                                 src={myPhoto3}
                                 text='A complete guide to me'
-                                label='Resume'
+                                // label='Resume'
                                 path='https://jhconger.github.io/resume/'
                             />
                             <CardItem
                                 src={myPhoto4}
                                 text='A Coffee App'
-                                label='Coffee'
+                                // label='Coffee'
                                 path='https://jhconger.github.io/coffee/'
                             />
                             <CardItem
                                 src={myPhoto5}
                                 text='Please enter the Konami Code'
-                                label='Konami'
+                                // label='Konami'
                                 path='https://jhconger.github.io/konami/'
                             />
                             <CardItem
                                 src={myPhoto6}
                                 className={myPhoto6}
                                 text='Happening Happy Hours'
-                                label='H3'
+                                // label='H3'
                                 path='http://happeninghappyhours.com/'
                             />
                         </ul>
