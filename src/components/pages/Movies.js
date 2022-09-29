@@ -3,7 +3,7 @@ import '../../App.css';
 
 export default function Movies() {
     useEffect(() => {
-        window.location.assign('https://justin-and-gerald.github.io/movies/');
+        window.location.assign('https://jhconger.github.io/ReactMovieDB/');
     }, []);
     return null
 }
