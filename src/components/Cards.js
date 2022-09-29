@@ -28,7 +28,7 @@ function Cards() {
                                 src={myPhoto2}
                                 text='An interactive Movie API project'
                                 // label='Movies'
-                                path='https://justin-and-gerald.github.io/movies/'
+                                path='https://jhconger.github.io/ReactMovieDB/'
                             />
                         </ul>
                         <ul className='cards__items'>
